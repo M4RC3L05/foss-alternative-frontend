@@ -1,5 +1,5 @@
 {
-  "tabs": "false",
+  "tabs": false,
   "semi": true,
   "singleQuote": false,
   "quoteProps": "as-needed",
