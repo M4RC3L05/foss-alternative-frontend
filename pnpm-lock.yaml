@@ -10,7 +10,6 @@ specifiers:
   reseter.css: ^2.0.0
   sass: ^1.39.0
   sort-package-json: ^1.50.0
-  tsc-files: ^1.1.2
   typescript: ^4.4.2
   vite: ^2.5.1
   xo: ^0.44.0
@@ -27,7 +26,6 @@ devDependencies:
   prettier: 2.4.0
   sass: 1.39.0
   sort-package-json: 1.50.0
-  tsc-files: 1.1.2_typescript@4.4.2
   typescript: 4.4.2
   vite: 2.5.4
   xo: 0.44.0
@@ -3241,15 +3239,6 @@ packages:
   /trim-newlines/4.0.2:
     resolution: {integrity: sha512-GJtWyq9InR/2HRiLZgpIKv+ufIKrVrvjQWEj7PxAXNc5dwbNJkqhAUoAGgzRmULAnoOM5EIpveYd3J2VeSAIew==}
     engines: {node: '>=12'}
-    dev: true
-
-  /tsc-files/1.1.2_typescript@4.4.2:
-    resolution: {integrity: sha512-biLtl4npoohZ9MBnTFw4NttqYM60RscjzjWxT538UCS8iXaGRZMi+AXj+vEEpDdcjIS2Kx0Acj++1gor5dbbBw==}
-    hasBin: true
-    peerDependencies:
-      typescript: '>=3'
-    dependencies:
-      typescript: 4.4.2
     dev: true
 
   /tsconfig-paths/3.11.0:
