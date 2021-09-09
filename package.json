@@ -4,7 +4,10 @@
   "description": "",
   "scripts": {
     "dev": "vite",
-    "build": "rm -rf ./types ./dist && tsc && vite build"
+    "build": "rm -rf ./types ./dist && tsc && vite build",
+    "check-types": "tsc --noEmit",
+    "lint": "xo",
+    "lint-fix": "xo --fix"
   },
   "keywords": [],
   "author": "",
