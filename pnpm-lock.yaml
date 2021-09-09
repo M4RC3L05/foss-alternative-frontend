@@ -5,6 +5,7 @@ specifiers:
   '@types/lodash.shuffle': ^4.2.6
   husky: ^7.0.0
   lint-staged: ^11.1.2
+  lit-html: ^1.4.1
   lodash.shuffle: ^4.2.0
   prettier: ^2.4.0
   reseter.css: ^2.0.0
@@ -16,6 +17,7 @@ specifiers:
 
 dependencies:
   '@supabase/supabase-js': 1.22.5
+  lit-html: 1.4.1
   lodash.shuffle: 4.2.0
   reseter.css: 2.0.0
 
@@ -2252,6 +2254,10 @@ packages:
       through: 2.3.8
       wrap-ansi: 7.0.0
     dev: true
+
+  /lit-html/1.4.1:
+    resolution: {integrity: sha512-B9btcSgPYb1q4oSOb/PrOT6Z/H+r6xuNzfH4lFli/AWhYwdtrgQkQWBbIc6mdnf6E2IL3gDXdkkqNktpU0OZQA==}
+    dev: false
 
   /load-json-file/4.0.0:
     resolution: {integrity: sha1-L19Fq5HjMhYjT9U62rZo607AmTs=}
