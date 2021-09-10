@@ -17,7 +17,8 @@
   },
   "lint-staged": {
     "*.@(ts)": [
-      "pnpm lint"
+      "pnpm lint",
+      "bash -c tsc --noEmit"
     ],
     "package.json": [
       "sort-package-json"
