@@ -4,14 +4,6 @@ import { getAlternativesToProprietaryUseCase } from "../../use-cases/get-alterna
 import { TState } from "../state";
 import { renderAlternatives } from "./alternative-display.ui";
 
-const getAlternativesToProprietary = async (state: TState, item: TSoftware) => {
-  const { data } = await getAlternativesToProprietaryUseCase({
-    proprietary: item,
-  });
-
-  state.alternatives = data ?? [];
-};
-
 export const onAlternatives = (
   alternatives: Array<TAlternative & { openSource: TSoftware }>
 ) => {
@@ -19,9 +11,13 @@ export const onAlternatives = (
 };
 
 export const onProprietarySelected =
-  (state: TState) => (item: TSoftware | null) => {
+  (state: TState) => async (item: TSoftware | null) => {
     if (item) {
-      void getAlternativesToProprietary(state, item);
+      const { data } = await getAlternativesToProprietaryUseCase({
+        proprietary: item,
+      });
+
+      state.alternatives = data;
     } else {
       state.alternatives = [];
     }
