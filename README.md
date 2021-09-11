@@ -8,3 +8,4 @@ A simple project to search for open source alternatives to proprietary software
 - lit-html
 - vite
 - scss
+- supabase
