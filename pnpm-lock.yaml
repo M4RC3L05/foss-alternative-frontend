@@ -2,10 +2,16 @@ lockfileVersion: 5.3
 
 specifiers:
   '@supabase/supabase-js': ^1.22.5
+  '@types/lodash.get': ^4.4.6
+  '@types/lodash.pick': ^4.4.6
+  '@types/lodash.set': ^4.3.6
   '@types/lodash.shuffle': ^4.2.6
   husky: ^7.0.0
   lint-staged: ^11.1.2
   lit-html: ^1.4.1
+  lodash.get: ^4.4.2
+  lodash.pick: ^4.4.0
+  lodash.set: ^4.3.2
   lodash.shuffle: ^4.2.0
   prettier: ^2.4.0
   reseter.css: ^2.0.0
@@ -18,10 +24,16 @@ specifiers:
 dependencies:
   '@supabase/supabase-js': 1.22.5
   lit-html: 1.4.1
+  lodash.get: 4.4.2
+  lodash.pick: 4.4.0
+  lodash.set: 4.3.2
   lodash.shuffle: 4.2.0
   reseter.css: 2.0.0
 
 devDependencies:
+  '@types/lodash.get': 4.4.6
+  '@types/lodash.pick': 4.4.6
+  '@types/lodash.set': 4.3.6
   '@types/lodash.shuffle': 4.2.6
   husky: 7.0.2
   lint-staged: 11.1.2
@@ -395,6 +407,24 @@ packages:
 
   /@types/json5/0.0.29:
     resolution: {integrity: sha1-7ihweulOEdK4J7y+UnC86n8+ce4=}
+    dev: true
+
+  /@types/lodash.get/4.4.6:
+    resolution: {integrity: sha512-E6zzjR3GtNig8UJG/yodBeJeIOtgPkMgsLjDU3CbgCAPC++vJ0eCMnJhVpRZb/ENqEFlov1+3K9TKtY4UdWKtQ==}
+    dependencies:
+      '@types/lodash': 4.14.172
+    dev: true
+
+  /@types/lodash.pick/4.4.6:
+    resolution: {integrity: sha512-u8bzA16qQ+8dY280z3aK7PoWb3fzX5ATJ0rJB6F+uqchOX2VYF02Aqa+8aYiHiHgPzQiITqCgeimlyKFy4OA6g==}
+    dependencies:
+      '@types/lodash': 4.14.172
+    dev: true
+
+  /@types/lodash.set/4.3.6:
+    resolution: {integrity: sha512-ZeGDDlnRYTvS31Laij0RsSaguIUSBTYIlJFKL3vm3T2OAZAQj2YpSvVWJc0WiG4jqg9fGX6PAPGvDqBcHfSgFg==}
+    dependencies:
+      '@types/lodash': 4.14.172
     dev: true
 
   /@types/lodash.shuffle/4.2.6:
@@ -2299,9 +2329,21 @@ packages:
     resolution: {integrity: sha1-4j8/nE+Pvd6HJSnBBxhXoIblzO8=}
     dev: true
 
+  /lodash.get/4.4.2:
+    resolution: {integrity: sha1-LRd/ZS+jHpObRDjVNBSZ36OCXpk=}
+    dev: false
+
   /lodash.merge/4.6.2:
     resolution: {integrity: sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==}
     dev: true
+
+  /lodash.pick/4.4.0:
+    resolution: {integrity: sha1-UvBWEP/53tQiYRRB7R/BI6AwAbM=}
+    dev: false
+
+  /lodash.set/4.3.2:
+    resolution: {integrity: sha1-2HV7HagH3eJIFrDWqEvqGnYjCyM=}
+    dev: false
 
   /lodash.shuffle/4.2.0:
     resolution: {integrity: sha1-FFtQU8+HX29cKjP0i26ZSMbse0s=}
