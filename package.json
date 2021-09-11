@@ -27,10 +27,16 @@
   "dependencies": {
     "@supabase/supabase-js": "^1.22.5",
     "lit-html": "^1.4.1",
+    "lodash.get": "^4.4.2",
+    "lodash.pick": "^4.4.0",
+    "lodash.set": "^4.3.2",
     "lodash.shuffle": "^4.2.0",
     "reseter.css": "^2.0.0"
   },
   "devDependencies": {
+    "@types/lodash.get": "^4.4.6",
+    "@types/lodash.pick": "^4.4.6",
+    "@types/lodash.set": "^4.3.6",
     "@types/lodash.shuffle": "^4.2.6",
     "husky": "^7.0.0",
     "lint-staged": "^11.1.2",
