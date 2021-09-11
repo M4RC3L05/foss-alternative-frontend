@@ -7,11 +7,17 @@ export type TState = {
   results: TSoftware[];
   selectedProprietary: TSoftware | null;
   alternatives: Array<TAlternative & { openSource: TSoftware }>;
+  isSearching: boolean;
+  isPerformingSearch: boolean;
+  isSearchQueryInFocus: boolean;
 };
 
-export const { state, onState } = store<TState>({
+export const { state, onState, notifyAll } = store<TState>({
   searchQuery: "",
   results: [],
   selectedProprietary: null,
   alternatives: [],
+  isSearching: false,
+  isPerformingSearch: false,
+  isSearchQueryInFocus: false,
 });
