@@ -6,12 +6,17 @@
     <title>FOSS Alternative</title>
   </head>
   <body>
-    <h1>FOSS Alternative</h1>
-    <h3>Find Open Source alternatives to proprietary software.</h3>
-    <input type="search" id="proprietary-search">
-    <div id="proprietary-display"></div>
-    <hr>
-    <div id="alternatives-display"></div>
+    <h1 class="main-title">FOSS Alternative</h1>
+    <h3 class="main-lead">Find Open Source alternatives to proprietary software.</h3>
+
+    <div class="search">
+      <input type="search" placeholder="Search" id="proprietary-search" class="search__input">
+      <div id="proprietary-display" class="search__results"></div>
+    </div>
+    
+    <div id="alternatives-display">
+    </div>
+    
     <script src="/src/index.ts" type="module"></script>
   </body>
 </html>
