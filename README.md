@@ -1,8 +1,10 @@
 # FOSS alternative frontend
 
-## TO DO
+A simple project to search for open source alternatives to proprietary software
 
-- Improve readme
-- Add release and deploy workflows
-- Add husky and friends
-- Add tests????
+## Stack
+
+- typescript
+- lit-html
+- vite
+- scss
